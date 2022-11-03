@@ -1,0 +1,188 @@
+
+.background_div{
+    width: 100%;
+    height: 2200px;
+    display:flex;
+    flex-direction: column;
+}
+
+
+/* header */
+.home_header{
+    background-color: white;
+    flex: 1;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    text-align: center;
+    margin-top : 70px;
+}
+
+.home_header_div_1{
+    font-family: 'Bebas Neue', cursive;
+}
+.home_header_div_2{
+    font-family: 'Jua', sans-serif;
+}
+
+
+/* content */
+.home_content{
+    background-color: white;
+    flex: 10;
+    display:flex;
+    padding: 15px;
+}
+.home_content_left_div{
+    flex:3;
+}
+.home_content_right_div{
+    flex:3;
+}
+
+
+
+
+.home_content_mid_div{
+    flex:6;
+    display:flex;
+    flex-direction: column;
+}
+.text1_div{
+    font-family: 'Jua', sans-serif;
+    flex:1;
+    text-align:center;
+    line-height: 119px;
+    font-size: 25px;
+}
+.text2_div{
+    font-family: 'Jua', sans-serif;
+    flex:1;
+    text-align:center;
+}
+
+.download_btn_div{
+    flex:2;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;   */   /* 세로까지 정렬  */
+}
+
+.download_btn {
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+.download_btn {
+    background: #b621fe;
+    font-size:15px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    z-index: 1;
+  }
+.download_btn:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+.download_btn:hover {
+    color: #fff;
+  }
+.download_btn:hover:after {
+    left: 0;
+    width: 100%;
+  }
+.download_btn:active {
+    top: 2px;
+  }
+
+
+
+
+.explain_img1_div{
+    flex:3;
+    background-image: url("../img/explain_1.PNG");
+    background-size : 80% 100%;
+    background-repeat : no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+.explain_img2_div{
+    flex:4;
+    background-image: url("../img/explain_2.PNG");
+    background-size : 70% 90%;
+    background-repeat : no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+
+
+.ads1_div{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.kakaoads{
+    width: 320px;
+    height: 100px;
+}
+
+
+.ads2_div{
+    flex:1;
+}
+
+/* .coupangads{
+
+} */
+
+
+
+/* footer */
+.home_footer{
+    background-color: white;
+    flex: 1;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    text-align: center;
+    padding : 30px 0px 0px 0px;
+}
+
+.home_footer_div_1{
+    margin: 10px;
+    font-family: 'Jua', sans-serif;
+}
+
+.home_footer_div_2{
+    margin: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
