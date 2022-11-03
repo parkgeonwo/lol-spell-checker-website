@@ -151,17 +151,20 @@
 }
 .kakaoads{
     width: 320px;
-    height: 100px;
+    height: 110px;
 }
 
 
 .ads2_div{
     flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
-
-/* .coupangads{
-
-} */
+.coupangads{
+    width: 320px;
+    height: 110px;
+}
 
 
 
