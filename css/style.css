@@ -1,7 +1,7 @@
 
 .background_div{
     width: 100%;
-    height: 2200px;
+    height: 2600px;
     display:flex;
     flex-direction: column;
 }
@@ -61,7 +61,7 @@
 }
 
 .download_btn_div{
-    flex:2;
+    flex:1;
     display: flex;
     justify-content: center;
     /* align-items: center;   */   /* 세로까지 정렬  */
@@ -123,10 +123,13 @@
   }
 
 
+.video-div{
+    flex:3;
+}
 
 
 .explain_img1_div{
-    flex:3;
+    flex:2;
     background-image: url("../img/explain_1.PNG");
     background-size : 80% 100%;
     background-repeat : no-repeat;
@@ -134,7 +137,7 @@
     padding: 20px;
 }
 .explain_img2_div{
-    flex:4;
+    flex:3;
     background-image: url("../img/explain_2.PNG");
     background-size : 70% 90%;
     background-repeat : no-repeat;
@@ -167,6 +170,17 @@
 }
 
 
+.right-ad{
+    width: 160px;
+    height: 600px;
+    margin: 0 auto;
+    position:sticky;
+    top:50px;
+}
+
+
+
+
 
 /* footer */
 .home_footer{
@@ -187,5 +201,7 @@
     margin: 10px;
     font-family: 'Bebas Neue', cursive;
 }
+
+
 
 
